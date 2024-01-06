@@ -1,18 +1,28 @@
 /* common shared style */
+*{
+        margin:0;
+        padding:0;
+}
 body{
+        font-family: 'Lato', sans-serif;
         font-family: 'Open Sans', sans-serif;
 }
 .text-primary{
-        color:#99ff99;
+        color:#6ff572;
 }
 .btn-primary{
         border-radius: 5px;
-        background-color:#99ff99;
+        background-color:#6ff572;
         border: 0;
         color: white;
         font-size: 20px;
         font-weight: 700;
-        padding: 15px;
+        padding: 15px 35px;
+}
+#btn-contact{
+        border: 0.5px solid white;
+        background: none;
+        margin-left: 10px;
 }
 
 /* nav releted styles */
@@ -20,19 +30,40 @@ nav{
         display: flex;
         align-items: center;
         justify-content: space-between;
+        margin: 0px 200px;
+        /* padding: 10px; */
 }
 .nav-name{
-        color:#181818;
+        color:white;
         font-size: 45px;
         font-weight: 800;
+        margin-top: 50px;
 }
 nav > ul{
         display: flex;
         align-items: center;
+        margin-top: 50px;
+
 } 
 nav li{
         text-decoration: none;
         list-style: none;
         margin-left: 50px;
-        color:#474747;
+        color:white;
+}
+/* Header releted styles */
+header{
+        background-image: linear-gradient(to bottom right,#0a3347,#084269);
+        margin:20px 80px 80px 80px;
+        
+}
+.banner{
+        padding:30px 30px 30px 150px;
+        color:white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+.profile-pic{
+        width: 500px;
 }
