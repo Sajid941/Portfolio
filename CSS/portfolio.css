@@ -35,6 +35,7 @@ body{
         font-size: 18px;
         color:white;
         text-align: center;
+        margin:30px
 }
 
 /* nav releted styles */
@@ -96,10 +97,23 @@ header{
 }
 /* main section styles */
 
+main{
+        max-width: 1140px;
+        margin:0 auto;
+}
 /* about section styles */
 .about{
         background-image: linear-gradient(to bottom right,#0a3347,#084269);
         padding:130px;
-        margin:130px
+        margin:130px 0;
 
+
+}
+.about-info-continer{
+        display: flex;
+        color:white;
+        justify-content: space-around;
+}
+.about-info{
+        text-align: center;
 }
