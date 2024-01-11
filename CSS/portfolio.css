@@ -304,13 +304,13 @@ footer{
                 flex-direction: column;
         }
         .banner-content{
-                margin-left: 20px;
+                margin-left: 10px;
         }
         .banner-greeting{
-                font-size: 1.5rem;
+                font-size: 1rem;
         }
         .banner-title{
-                font-size: 2.5rem;
+                font-size: 1.5rem;
         
         }
         nav{
@@ -318,9 +318,14 @@ footer{
         }
         .btn-primary{
                 width: 150px;
+                padding: 10px;
+                padding-right: 0;
         }
         .banner-description,#btn-cv-banner,#btn-contact{
                 margin-top:170px;
+        }
+        .banner-description{
+                width: 300px;
         }
         #btn-cv-banner,#btn-contact{
                 margin-top:0px;
@@ -328,12 +333,22 @@ footer{
         #btn-cv-banner{
                 width: 200px;
         }
+        #btn-contact{
+                margin: 10px 0 10px 0;
+        }
         .profile-pic{
                 background-color: #6ff572;
-                width: 200px;
+                width: 150px;
                 height: auto;
                 margin-top:-450px;
-                margin-left: 250px;
+                margin-left: 150px;
                 border-radius: 70px;
+        }
+        .hire-btn{
+                margin-right: 50px;
+                
+        }
+        nav li{
+                margin-left: 20px;
         }
 }
