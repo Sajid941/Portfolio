@@ -279,6 +279,13 @@ footer{
         .skills-continer{
                 flex-direction: column;
         }
+        .skill{
+                margin: 0px 20px 0px 20px;
+        }
+        .skill-contaianer-description{
+             /* background-color: aqua; */
+             margin:0px 10px 0px 10px;
+        }
         .section-descerption{
                 width:90vw;
                 padding: 0;
